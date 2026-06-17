@@ -4,7 +4,7 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aurum-badmanufaktur.demo"),
+  metadataBase: new URL("https://aurum-badmanufaktur-demo.vercel.app"),
   title: {
     default: "Aurum Badmanufaktur — Premium-Badsanierung aus einer Hand",
     template: "%s · Aurum Badmanufaktur",
