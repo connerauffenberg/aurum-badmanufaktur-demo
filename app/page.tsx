@@ -61,7 +61,11 @@ export default function HomePage() {
           <p className="hero__sub body-lg" data-reveal style={{ "--reveal-delay": "120ms" } as React.CSSProperties}>
             Premium-Badsanierung aus einer Hand — von der ersten Idee bis zur fertigen Übergabe.
           </p>
-          <div className="hero__actions" data-reveal style={{ "--reveal-delay": "220ms" } as React.CSSProperties}>
+          <p className="hero__demo-note" data-reveal style={{ "--reveal-delay": "180ms" } as React.CSSProperties}>
+            <span>Demo-Inhalte:</span> Unternehmen, Kontaktdaten, Bewertungen und Projektdetails
+            sind fiktiv.
+          </p>
+          <div className="hero__actions" data-reveal style={{ "--reveal-delay": "260ms" } as React.CSSProperties}>
             <a className="btn btn--light" href="#kontakt">
               <ArrowUpRight /> Beratung anfragen
             </a>

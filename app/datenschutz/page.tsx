@@ -12,11 +12,13 @@ export default function DatenschutzPage() {
   return (
     <main className="legal">
       <div className="legal__wrap">
-        <Link href="/" className="textlink legal__back">
-          <ArrowRight size={14} /> Zurück zur Startseite
-        </Link>
+        <div className="legal__top">
+          <Link href="/" className="textlink legal__back">
+            <ArrowRight size={14} /> Zurück zur Startseite
+          </Link>
+          <span className="eyebrow">Rechtliches</span>
+        </div>
 
-        <span className="eyebrow">Rechtliches</span>
         <h1 className="display-md" style={{ marginTop: 18 }}>
           Datenschutz
         </h1>
@@ -51,8 +53,9 @@ export default function DatenschutzPage() {
         <h2>4. Bilder</h2>
         <p>
           Alle auf dieser Website verwendeten Bilder werden lokal vom Server dieser Website
-          ausgeliefert. Es werden keine Fotografien von externen Bilddiensten geladen und somit
-          keine Daten an Dritte übertragen.
+          ausgeliefert. Die Bildmotive wurden vom Website-Ersteller mithilfe von KI-Werkzeugen
+          generiert; es werden keine Fotografien von externen Bilddiensten geladen und somit keine
+          Daten an Dritte übertragen.
         </p>
 
         <h2>5. Ihre Rechte</h2>

@@ -333,6 +333,10 @@ button {
   opacity: 1;
   transform: none;
 }
+.js .hero [data-reveal] {
+  opacity: 1;
+  transform: none;
+}
 .js :target [data-reveal],
 .js :target[data-reveal] {
   opacity: 1;
@@ -431,6 +435,26 @@ button {
   max-width: 600px;
   color: var(--color-on-photo-muted);
 }
+.hero__demo-note {
+  width: fit-content;
+  max-width: 620px;
+  margin-top: 22px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(7, 12, 14, 0.28);
+  color: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(8px);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.hero__demo-note span {
+  color: var(--color-on-photo);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 .hero__actions {
   margin-top: 38px;
   display: flex;
@@ -454,6 +478,19 @@ button {
   .hero__sub {
     max-width: 28ch;
     margin-top: 20px;
+  }
+  .hero__demo-note {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 18px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  .hero__demo-note span {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 10px;
+    letter-spacing: 0.07em;
   }
   .hero__actions {
     display: grid;
@@ -1655,8 +1692,17 @@ button {
   color: var(--color-ink);
   margin-bottom: 14px;
 }
-.legal__back {
+.legal__top {
+  display: flex;
+  align-items: center;
+  gap: 28px;
   margin-bottom: 40px;
+}
+.legal__back {
+  flex: none;
+}
+.legal__top .eyebrow {
+  flex: none;
 }
 .legal__demo {
   border: 1px solid var(--color-hairline);
@@ -1690,6 +1736,17 @@ button {
   font-style: normal;
   color: var(--color-body);
   line-height: 1.7;
+}
+@media (max-width: 560px) {
+  .legal__top {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .legal__demo {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 
 /* ============================================================

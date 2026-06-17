@@ -12,11 +12,13 @@ export default function ImpressumPage() {
   return (
     <main className="legal">
       <div className="legal__wrap">
-        <Link href="/" className="textlink legal__back">
-          <ArrowRight size={14} /> Zurück zur Startseite
-        </Link>
+        <div className="legal__top">
+          <Link href="/" className="textlink legal__back">
+            <ArrowRight size={14} /> Zurück zur Startseite
+          </Link>
+          <span className="eyebrow">Rechtliches</span>
+        </div>
 
-        <span className="eyebrow">Rechtliches</span>
         <h1 className="display-md" style={{ marginTop: 18 }}>
           Impressum
         </h1>
@@ -60,8 +62,9 @@ export default function ImpressumPage() {
 
         <h2>Haftung & Bildnachweis</h2>
         <p>
-          Inhalte dieser Demo dienen nur zu Anschauungszwecken. Verwendete Fotografien stammen von
-          Unsplash und unterliegen der Unsplash-Lizenz.
+          Inhalte dieser Demo dienen nur zu Anschauungszwecken. Die verwendeten Bildmotive wurden vom
+          Website-Ersteller mithilfe von KI-Werkzeugen generiert und lokal in dieser Website
+          eingebunden.
         </p>
       </div>
     </main>

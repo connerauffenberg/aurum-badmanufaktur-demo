@@ -151,8 +151,8 @@ export function Contact() {
       </button>
 
       <p className="form__note">
-        Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Angaben zur Bearbeitung der Anfrage zu.
-        Diese Demo speichert keine Daten.
+        Demo-Hinweis: Eingaben bleiben im Browser. Es werden keine Daten gesendet, gespeichert oder
+        verarbeitet.
       </p>
     </form>
   );
