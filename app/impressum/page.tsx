@@ -30,7 +30,27 @@ export default function ImpressumPage() {
           der Gestaltung.
         </p>
 
-        <h2>Angaben gemäß § 5 DDG (Beispiel)</h2>
+        <h2>Betreiber dieser Demo-Website (verantwortlich gemäß § 5 DDG)</h2>
+        <p>
+          <address>
+            Auffenberg Solutions
+            <br />
+            Conner Auffenberg
+            <br />
+            Adlerstraße 20
+            <br />
+            48429 Rheine
+            <br />
+            E-Mail: conner@auffenbergsolutions.de
+          </address>
+        </p>
+        <p>
+          Auffenberg Solutions hat diese Website als Portfolio-Demonstration erstellt und betreibt
+          sie. Die folgenden Angaben gehören zur fiktiven Beispielfirma und beschreiben kein real
+          existierendes Unternehmen.
+        </p>
+
+        <h2>Fiktive Beispielangaben gemäß § 5 DDG</h2>
         <p>
           <address>
             {BRAND.full} (fiktiv)

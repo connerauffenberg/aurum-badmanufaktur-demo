@@ -32,8 +32,14 @@ export default function DatenschutzPage() {
 
         <h2>1. Verantwortlicher</h2>
         <p>
-          Verantwortlich für die (beispielhafte) Datenverarbeitung wäre {BRAND.full}, {BRAND.address}
-          . In dieser Demo werden keine personenbezogenen Daten erhoben.
+          Verantwortlich für den Betrieb dieser Demo-Website ist Auffenberg Solutions, Conner
+          Auffenberg, Adlerstraße 20, 48429 Rheine, conner@auffenbergsolutions.de. Vollständige
+          Angaben im <Link href="/impressum">Impressum</Link>.
+        </p>
+        <p>
+          Die nachfolgend genannte Stelle gehört zur Demo und ist frei erfunden: Verantwortlich für
+          die (beispielhafte) Datenverarbeitung wäre {BRAND.full}, {BRAND.address}. In dieser Demo
+          werden keine personenbezogenen Daten erhoben.
         </p>
 
         <h2>2. Kontaktformular</h2>
